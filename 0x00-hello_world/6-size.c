@@ -7,8 +7,8 @@ int main(void)
 {
 char a;
 int b;
-long c;
-long long e;
+long int c;
+long long int e;
 float f;
 printf("The size of an int is: %lu.\n",(unsigned long)sizeof(b));
 printf("The size of a char is: %lu.\n",(unsigned long)sizeof(a));
