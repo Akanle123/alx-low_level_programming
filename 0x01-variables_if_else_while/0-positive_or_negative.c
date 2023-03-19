@@ -5,8 +5,8 @@
 /**
  * main - print a random number
  *
- * Return : 0
- **/
+ * Return: 0
+ */
 int main(void)
 {
 	int n;
