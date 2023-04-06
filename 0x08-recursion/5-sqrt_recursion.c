@@ -7,22 +7,23 @@
  */
 int _sqrt_recursion(int n)
 {
-	if (n < 0)
-		return (-1);
-	return (actual_sqrt_recursion(n, 0));
+	if (n == 0)
+		return (0);
+	return (actual_sqrt_recursion(1, n));
 }
 /**
  * actual_sqrt_recursion - checks for the square root
  * @x:int
- * @n:int
+ * @y:int
  *
  * Return: int
  */
-int actual_sqrt_recursion(int n, int x)
+int actual_sqrt_recursion(int x, int y)
 {
-	if (x * x > n)
-		return (-1);
-	if (x * x == 0)
+	if (x * x == y)
 		return (x);
-	return (actual_sqrt_recursion(n, x + 1));
+	if (x * x > y)
+		return (-1);
+	return (check(x + 1, y));
+}
 }
