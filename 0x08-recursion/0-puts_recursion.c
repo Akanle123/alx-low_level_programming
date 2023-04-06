@@ -3,7 +3,6 @@
  * _puts_recursion - Recursion test1
  * @s: the value
  * Return: s
- *
  */
 
 void _puts_recursion(char *s)
