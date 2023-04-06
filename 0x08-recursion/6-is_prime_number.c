@@ -5,7 +5,7 @@
  * Return: void
  *
  */
-int is_prime_number(int n);
+int is_prime_number(int n)
 {
 	if (n == 2)
 		return (1);
@@ -25,5 +25,5 @@ int actual_prime(int x, int y)
 	else if (x > y / 2)
 		return (1);
 	else
-		return (check(x + 1, y));
+		return (actual_prime(x + 1, y));
 }
