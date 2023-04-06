@@ -28,12 +28,12 @@ int palindrome_checker(char *s, int i, int j)
 		return (0);
 }
 /**
- * is_s_pal - check if s is palindrome
+ * is_palindrome - check if s is palindrome
  * @s: base address for string.
  *
  * Return: 1 if n is prime, 0 otherwise.
  */
-int is_s_pal(char *s)
+int is_palindrome(char *s)
 {
 	return (palindrome_checker(s, 0, _strlen_recursion(s) - 1));
 }
