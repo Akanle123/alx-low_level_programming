@@ -13,4 +13,6 @@ int actual_prime(int x, int y);
 int palindrome_checker(char *s, int i, int j);
 int is_s_pal(char *s);
 int is_palindrome(char *s);
+int strg_checker(char *x, char *y, int a, int b);
+int wildcmp(char *x, char *y);
 #endif
