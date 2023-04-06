@@ -26,4 +26,3 @@ int actual_sqrt_recursion(int x, int y)
 		return (-1);
 	return (check(x + 1, y));
 }
-}
