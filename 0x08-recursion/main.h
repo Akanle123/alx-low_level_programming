@@ -10,4 +10,7 @@ void _puts_recursion(char *s);
 int _putchar(char c);
 int actual_sqrt_recursion(int x, int y);
 int actual_prime(int x, int y);
+int palindrome_checker(char *s, int i, int j);
+int is_s_pal(char *s);
+int _strlen_recursion(char *s);
 #endif
