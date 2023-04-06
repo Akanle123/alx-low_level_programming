@@ -24,5 +24,5 @@ int actual_sqrt_recursion(int x, int y)
 		return (x);
 	if (x * x > y)
 		return (-1);
-	return (check(x + 1, y));
+	return (actual_sqrt_recursion(x + 1, y));
 }
